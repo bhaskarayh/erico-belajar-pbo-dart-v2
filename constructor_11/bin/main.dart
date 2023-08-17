@@ -1,8 +1,10 @@
 import 'person.dart';
+import 'student.dart';
 
 void main(List<String> arguments) {
-  Person p = Person();
-  p.name = "Joko";
+  // Person p = Person(name: 'Joko');
+  Student s = Student();
+  // p.name = "Joko";
 
-  print(p.name);
+  print(s.name);
 }
